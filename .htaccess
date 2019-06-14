@@ -1,7 +1,8 @@
-ErrorDocument 404 /small/error.php
-ErrorDocument 500 /small/error.php
-ErrorDocument 402 /small/error.php
-ErrorDocument 404 /small/error.php
+ErrorDocument 404 /error.php
+ErrorDocument 500 /error.php
+ErrorDocument 402 /error.php
+ErrorDocument 404 /error.php
+ErrorDocument 403 /error.php
 #
 #ErrorDocument 404 /e.html
 #ErrorDocument 500 /e.html
