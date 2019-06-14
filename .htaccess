@@ -1,0 +1,27 @@
+ErrorDocument 404 /small/error.php
+ErrorDocument 500 /small/error.php
+ErrorDocument 402 /small/error.php
+ErrorDocument 404 /small/error.php
+#
+#ErrorDocument 404 /e.html
+#ErrorDocument 500 /e.html
+#ErrorDocument 402 /e.html
+#ErrorDocument 403 /e.html
+#ErrorDocument 404 /e.html
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+Options -Indexes
+
+<Files "./db.txt" >
+order allow,deny
+Deny from all
+</Files>
+
+
+<Files httpd.conf >
+order allow,deny
+Deny from all
+</Files>
